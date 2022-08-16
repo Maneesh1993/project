@@ -1,0 +1,163 @@
+.maincontainer{
+    background-color:white;
+    width:100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+.swiper{
+  width: 80%;
+  height: fit-content;
+  /* height: 80%; */
+  /* border-radius: 30px; */
+  /* z-index: -1; */
+/* position: relative; */
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.swiper-wrapper{
+/* margin-top: 500px; */
+    height: 100%   ;
+/* padding: 10px; */
+}
+.swiper-wrapper img{
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  object-fit: cover;
+  height: 700px;
+  border-radius:50%;
+}
+
+.swiper .swiper-button-prev,.swiper .swiper-button-next{
+color: green;
+}
+
+
+
+.navbar{
+  display:flex;  
+  flex-flow: row wrap;
+  align-items:center;
+  justify-content:center;
+  grid-gap:30px;
+  /* margin-top: 30px; */
+  
+  overflow: hidden;
+  background-color:white;
+  position:sticky;
+  top: 0; 
+  width: 100%; 
+  z-index: 999;
+  }
+                            .webname{
+                              color:green;
+                              width:100px;
+                              height: 100px;
+
+                            }
+                            .STATES {
+                                
+                                height: 40px;
+                                WIDTH:300PX;
+                                font-size: large;  
+                                border-radius: 5px;
+                            }
+
+                            .form-inline input{
+                              height: 40px;
+                              WIDTH:400PX;
+                              font-size: large;
+                              border-radius: 5px;
+                            }
+
+
+                            .form-inline button{
+                                    height: 45px;
+                                    width:45px;
+                                    margin-left:-5px;
+                                    background-color: dodgerblue; 
+                              }
+
+                              .form-inline button i{
+                                font-size: larger;
+                                color: white;
+                               
+                              }
+                              
+                              .form-inline button:hover{
+                                cursor: pointer;
+                               
+                              }
+
+                              .btn {
+                                height:40px;
+                                width:90px;
+                                color:white;
+                                background-color: green;
+                                border-radius: 10PX;
+                                font-size:medium;
+                                font-weight: bold;
+                                
+                              }
+
+                              .btn1{
+                                height:40px;
+                                width:90px;
+                                color:white;
+                                background-color: green;
+                                border-radius: 10PX;
+                                font-size:larger;
+                                font-weight: bold;
+                                text-align: center;
+                                margin-top: 30PX;
+                                padding-top: 10PX;
+                                border-color: black;
+                                border: black;
+                                                                 
+                              }
+
+                              .btn:hover{
+                                cursor: pointer;
+                                background-color: green;
+                              }
+
+                              .lang{
+                                border-radius: 6px;
+                                height: 40px;
+                                WIDTH:130PX;
+                                font-size: large; 
+                                
+                                
+                              }
+
+                              .new1{
+                                width: 50px;
+                                
+                              }
+
+                               .container{
+                                 display: flex; 
+                                align-items: center;
+                                justify-content: center;
+                                margin-top: 250px;
+                                margin-left: 500px;
+                              } 
+
+                              .code{
+                                font-size: larger;
+                                font-weight: bolder;
+                              }
+
+  
